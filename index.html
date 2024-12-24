@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/fff11c7584.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div id="container">
+       <nav>
+        <img src="c" alt="Catherine" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>   
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav> 
+
+       <div class="header_text">
+        <p>Statistician</p>
+        <h1>Hi, I'm <span>Auma</span><br> Catherine From Kenya</h1>
+       </div>
+
+    </div>
+  </div>  
+
+  <!------------------------------ABOUT---------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="back.jpeg">
+          </div> 
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a hardworking and self motivated indivual, n enthusiast of data 
+              and one who is always curious to learn new skills in the field of data whenever they
+              arise.
+            </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Statistical sofwares:</span><br>R, STATA</li>
+                        <li><span>Programming:</span><br>Python, Java, C++</li>
+                        <li><span>Databases:</span><br>MySQL</li>
+                        <li><span>Microsoft:</span><br>Excel, Word</li>
+                        <li><span>Data Visualizations/Reporting:</span><br>R Markdown, R Shiny,PowerBI, Tableau</li>
+                        <li><span>Operating Systems:</span><br>Mac OS, Windows</li>
+                        <li><span>Data Collection:</span><br>Commcare, Kobo</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2024 - September 2024:</span><br>Attachment at Adaptive Model for Research and Empowermen in Communities (AMREC) <br>
+                        Roles: <br>1. Development of questionnaire using CommCare and Kobo. <br>
+                    2. Data collection via mobile application (CommCare and Kobo). <br>
+                3.Conducting interviews. <br> 4. Data analysis using Python, SPSS, STATA and R. <br>
+            5. Geospatial modelling using QGIS. <br> 5. Qualitative data analysis using Nvivo and Dedoose. <br>
+        6. Literature review and propasal Writing.</li>
+                        <li><span>November 2023:</span><br>JKUAT Hackathon</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 to date:</span><br>Bsc. Statistics - Jomo Kenyatta University Of Agriculture And Technology (JKUAT), Kenya</li>
+                        <li><span>2017 - 2020:</span><br>Rangwe Girls Secondary School (KCSE),Kenya</li>
+                        <li><span>2013 - 2016</span><br>Ondiko Primary school (KCPE), Kenya</li>
+                    </ul>
+                </div>
+
+
+          </div> 
+        </div>
+    </div>
+  </div>
+
+  <!------------------------------------------------------SERVICES---------------------------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    
+    <div class="services-list">
+      <div>
+        <h2>Data Collection</h2>
+        <p>A good data collector using the ODK tools like Kobo Commcare and rEDcap</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <h2>Excel Dashboard</h2>
+        <p>Attractive excel dashboarsd which are supper cool just a a very prominent me</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <h2>Analysis and Visualization</h2>
+        <p>Great analytical and visual skills in R. super pro you know</p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+  <!----------------------------Portfolio------------------>
+      
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work1.png">
+        <div class="layer">
+          <h3>Visualizations</h3>
+          <p>i will remember to add this part later</p>
+
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="work2.png">
+        <div class="layer">
+          <h3>dasboarding</h3>
+          <p>i will remember to add this part later</p>
+         
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="wok3.png">
+        <div class="layer">
+          <h3>map modelling</h3>
+          <p>i will remember to add this part later</p>
+          
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+   
+  </div>
+</div>
+
+<!---------------------CONTACT SECTION--------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class=""sub-title>Contact Me</h1>
+        <p><i class="fa-regular fa-envelope"></i> aumacatherine2002@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i>+254 114892747</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/auma-catherine-aa41112a3?trk=contact-info"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/auma_catherine_o/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://vm.tiktok.com/ZMhG2BY4U/"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://web.facebook.com/profile.php?id=100084229071019"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/home"><i class="fa-brands fa-x-twitter"></i></a>
+          
+        </div>
+
+        <a href="/Users/mac/Documents/vault/Cathrine's_CV[1].docx" download class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+        
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright &copy; Catherine. My personal portfolio <i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+
+  
+  <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+     let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script> 
+
+  <script>
+    let sidemen = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemen.style.right= "0";
+    }
+    function closemenu(){
+      sidemen.style.right= "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbzIYQl9EOMBZXXYQ0jCNsOV3fWTCMyKRhRUJPHElG-l6PY4YHI8YjV5qF8nWHb3SXVr/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!',error.message))
+      })
+  </script>
+</body>
+</html>
+
+
